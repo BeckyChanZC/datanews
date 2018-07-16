@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>img{ height: 100px; float: left; }</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="../build/fetch-jsonp.js"></script>
+</head>
+<body>
+<p>
+地址: <span id="q"></span><br> 
+学校: <span id="school"></span><br> 
+</p>
+</body>
+<script type="text/javascript">
+     var result = fetchJsonp('http://api.map.baidu.com/geodata/v3/poi/list?geotable_id=188214&ak=FbvMrMA1M56NOUGhQS32KtoInvVein3c&page_size=1&address='+'石牌东路', {
+      callback: 'jsonpCallback',
+      timeout: 1000
+    })
+    result.then(function(response) {
+      return response.json()
+    }).then(function(json) {
+      document.getElementById('q').innerHTML = JSON.stringify(json.pois['0'].address);
+      document.getElementById('school').innerHTML = JSON.stringify(json.pois['0'].school);
+    })['catch'](function(ex) {
+      document.body.innerHTML = 'failed:' + ex;
+    })
+</script>
+</html>
