@@ -1,0 +1,92 @@
+
+{
+
+	"HTMLFileName":"end scene.html",
+	"expanded:images/20151005055300_x5tFJ.jpeg":"nil",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"预载\": {\
+   \"timelines\": {\
+\
+   }},\
+\"低版本\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"mediagroup_media/Andrei%20Machado%20-%20Sobre%20a%20brevidade%20da%20vida.mp3":"Andrei Machado - Sobre a brevidade da vida",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"viewStartMs":"-289.64660006431",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"symbol_stage":{
+		"element_${Text}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true",
+			"usingMotionPaths":"true"},
+		"dummyStageParentWidth":"1280px",
+		"element_${Andrei_Machado_-_Sobre_a_brevidade_da_vida}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"dummyStageParentHeight":"720px",
+		"element_${Text3}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${Text4}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"element_${Text2}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true"},
+		"defaultStageParentHeight":"720px",
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineTreeOpened":"false",
+			"timelineColor":"0xeedf79"},
+		"element_${end}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_20151005055300_x5tFJ}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
+			"locked":"false",
+			"animationEnabled":"true",
+			"timelineTreeOpened":"false"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"defaultStageParentWidth":"1280px"},
+	"TransitionIdCounter":"58",
+	"CompZoomFactor":"100",
+	"viewStartY":"50",
+	"pixelsPerMs":"0.017262415643373",
+	"usedBOM":"false",
+	"nextElementColorIndex":"10",
+	"stage-Default Timeline_playhead_ms":"29949",
+	"StageZoomFactor":"70",
+	"expanded:images/end.png":"nil",
+	"stage-Default Timeline_mark_ms":"-1"}
